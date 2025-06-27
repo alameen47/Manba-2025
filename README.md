@@ -54,12 +54,7 @@ This is a critical step. The project relies on environment variables to connect 
 Create a new file named .env.local in the root of your project folder. Copy the contents of the example below and replace the placeholder values with your actual Firebase project credentials.
 .env.local
 # Firebase Client SDK Key (publicly accessible)
- NEXT_PUBLIC_FIREBASE_API_KEY="AIzaSyBjE7SWQ1PGp3YivXFQ7KjmOvuz0Auig8Y"
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN="fountain-media-website.firebaseapp.com"
-NEXT_PUBLIC_FIREBASE_PROJECT_ID="fountain-media-website"
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET="fountain-media-website.firebasestorage.app"
-NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID="100566641484"
-NEXT_PUBLIC_FIREBASE_APP_ID="1:100566641484:web:ca4b843786b10128a57de9"
+NEXT_PUBLIC_FIREBASE_API_KEY=your_api_key NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_auth_domain NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_storage_bucket NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
 
 # Firebase Admin SDK (server-side only, MUST be kept secret)
 # 1. Generate a new private key in your Firebase project settings (Service Accounts).
