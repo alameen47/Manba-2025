@@ -3,10 +3,10 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     domains: [
-      // If you are using an external service for images, add its domain here.
-      // e.g., 'images.unsplash.com',
+      // Add image domains here, if needed.
     ],
   },
+  output: 'standalone', // Ensures compatibility with Vercel.
 };
 
 module.exports = nextConfig;
